@@ -1,0 +1,12 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1655015/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp habanero.html $DEPLOYPATH
+    - /bin/cp idnslot.html $DEPLOYPATH
+    - /bin/cp isoftbet.html $DEPLOYPATH
+    - /bin/cp microgaming.html $DEPLOYPATH
+    - /bin/cp PGSOFT.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R image $DEPLOYPATH
