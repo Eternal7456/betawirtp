@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Provider custom css -->
+    <link type="text/css" rel="stylesheet" href="https://game-launcher-sg.isoftbet.com/v2.0/templates/css/isoftbet.css" />
+    
+<!-- Load and init sentry.io(before CMA initialization) -->
+<script src="https://browser.sentry-cdn.com/6.4.1/bundle.min.js"
+        integrity="sha384-THoc7rflwZFKTdZNgv6jLFFDn299Uv3t1SW5B4yGLvLiCRTYP9ys6vXZcMl95TQF"
+        crossorigin="anonymous"></script>
+
+
+<script>
+    Sentry.init({ dsn: 'https://48d710b5372b46ab9a37ebf3a5cef8bf@o331068.ingest.sentry.io/5210888'});
+</script>
+
+<!-- JQuery library -->
+<script src="https://game-launcher-sg.isoftbet.com/v2.0/templates/js/jquery.min.js"></script>
+
+    <!-- added custom javascript -->
+    <script src="https://game-launcher-sg.isoftbet.com/v2.0/templates/js/isoftbet.js"></script>
+    <!-- GAME NAME -->
+<title>Jumbo Stampede</title>
+
+<!-- Handle and load CMA SCRIPT URL -->
+<script type="application/javascript">
+    var wrapperScript = document.createElement("script");
+    wrapperScript.type = "text/javascript";
+    wrapperScript.src = "https://static-common-sg.isbtechno.com/overlay/overlay_wrapper/production/js/isb_overlay_wrapper.js?hash=1653362849";
+
+    wrapperScript.onload = function () {
+        window.ISB_OW = window.ISB_OW || {};
+        var data = {
+            gameLink: "https://static-common-sg.isbtechno.com/games/html/html5/pulse_jumbo_stampede/pulse_jumbo_stampede.html?name=1251,IDNeternal,0&password=k77liio2070pfu565e81bfajnk959784504eternal959784504wdqaaS,IDNeternal,IDR,ID,real,0,,907790,multi,id&lang=id&currency=IDR&funmode=false&rulesUrl=https%3A%2F%2Fstatic-common-sg.isbtechno.com%2Fgames%2Fhtml%2Fhtml5%2Frules%2Fid%2Fpulse_jumbo_stampede_rules.html%3Flid%3D1251%26operator%3D0%26country%3DID&historyUrl=https%3A%2F%2Fplayer-stats-sg.isoftbet.com%2Fstatistics%2FgameSession.php%3Fac%3Dsearch%26uid%3DIDNeternal%26currency%3DIDR%26lid%3D1251%26timestamp%3D1653362849%26hash%3D7f25b4b70a06f5038a26de9bc3fe3cb9%26gni%3D7790%26fd%3D2022-05-23%26th%3D23%3A59%26lang%3Did&skinid=907790&channelautodetection=ON&table=6&allowFullScreen=true&cachebuster=b3790d1fbc1ebc12e84e12bdc96b44d6d9d3ab90&enableConsole=false",
+            gameLinkPOSTcontent: "",
+            licenseId: 1251,
+            operator: "0",
+            name: "1251,IDNeternal,0",
+            password: "k77liio2070pfu565e81bfajnk959784504eternal959784504wdqaaS,IDNeternal,IDR,ID,1,0,,907790,multi,id",
+            skinId: 907790,
+            providerId: 1,
+            identifier: "pulse_jumbo_stampede",
+            lang: "id",
+            cur: "IDR",
+            funMode: false,
+            rulesURL: "",
+            historyURL: "",
+            lobbyURL: "",
+            turboMode: false,
+            revision: "",
+            enableConsole: true,
+            allowFullScreen: true,
+            country: "ID",
+            environment_type: "production",
+            environment_domain: "singapore.isoftbet.com",
+            server_id: "18",
+            userId: "IDNeternal",
+            username: "IDNeternal",
+            token: "k77liio2070pfu565e81bfajnk959784504eternal959784504wdqaaS",
+            gapLauncherScriptExtension: "null",
+            italy_aams_id: "null",
+            italy_participation_id: "null",
+            italy_rebuy_icon: false        };
+        if (ISB_OW && ISB_OW.PublicApi) {
+            ISB_OW.PublicApi.initWithData(data);
+        } else {
+            console.warn("ISB OW API is not defined.");
+        }
+    };
+    wrapperScript.onerror = function() {
+        console.warn("Error loading " + this.src);
+    };
+    document.head.appendChild(wrapperScript);
+</script>
+</head>
+<body style="">
+<div id="wrapper_container"></div>
+</body>
+</html>
