@@ -6,3 +6,34 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.bgcolor1 {
+  background-color: rgb(131, 18, 14);
+
+}
+
+.bgcolor2 {
+background-color: blueviolet;
+
+}
+
+.bgcolor3 {
+background-color: rgb(24, 22, 22);
+
+}
+.bgcolor4 {
+  background-color: black;
+  
+  }
+
+.center {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.width {
+
+  width: 100%;
+}
